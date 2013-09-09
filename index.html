@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/body.css" rel="stylesheet" type="text/css" />
+<link href="css/form.css" rel="stylesheet" type="text/css" />
+<link href="css/banner.css" rel="stylesheet" type="text/css" />
+<title>Lab Utility</title>
+<script type="text/javascript" src="js/buttons.js"></script>
+</head>
+<body>
+<div class= "container">
+  <div id="navMenu">
+    <ul id="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="registration/registration.html">Register</a></li>
+    </ul>
+  </div>
+</div>
+<div class="body">
+  <div class="inner-border">
+    <div class="border">
+      <div class="content">
+        <h1 id="form-title"> Lab Utility </h1>
+        <form id ="login_form"  method="post" action="login/checklogin.php">
+          <fieldset>
+            <center>
+              <label for="user_name">Username</label>
+              <input type="text" name="user_name" id="username" value=""/>
+              <br/>
+              <label for="pass_word">Password&nbsp;</label>
+              <input type="password" name="pass_word" id="password" value=""/>
+            </center>
+            <br />
+            <li class="bottom">
+              <input name="submitButton" value="Submit" type="submit" class="submit_button" id="submt" onmouseover="onHover()" onmouseout="onExit()">
+              <input name="resetButton" type="reset" class="reset_button" value="Reset" id="rst" onmouseover="onHoverReset()" onmouseout="onExitReset()" />
+            </li>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

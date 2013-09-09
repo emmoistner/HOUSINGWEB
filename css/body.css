@@ -1,0 +1,116 @@
+@charset "utf-8";
+body {
+	background-image:url(../images/Park%20Hall.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-color: #333;
+}
+.body {
+	margin-top: 100px;
+}
+#title-hold {
+	width: 750px;
+	margin-left:auto;
+	margin-right:auto;
+}
+p {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+#title {
+	color: #fff;
+	text-outline:#fff;
+	background: -moz-linear-gradient(-45deg, rgba(255, 0, 0, 1) 0%, rgba(251, 39, 39, 1) 17%, rgba(243, 108, 108, 0.54) 47%, rgba(229, 229, 229, 0) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(255, 0, 0, 1) 0%, rgba(251, 39, 39, 1) 17%, rgba(243, 108, 108, 0.54) 47%, rgba(229, 229, 229, 0) 100%);
+	font-size: 350%;
+	border-radius: 4px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+.UML {
+	margin-right: auto;
+	margin-left: 20px;
+}
+.inner-border {
+	margin-left: auto;
+	margin-right: auto;
+	width: 984px;
+	display:block;
+}
+.decomp {
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+}
+#store-title {
+	text-align:center;
+ text
+}
+#store-body {
+	margin-left:auto;
+	margin-right:auto;
+}
+.border {
+	margin-left: auto;
+	margin-right: auto;
+	background: -moz-linear-gradient(-45deg, rgba(14, 14, 14, 1) 0%, rgba(125, 126, 125, 1) 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(14, 14, 14, 1)), color-stop(100%, rgba(125, 126, 125, 1)));
+}
+#body-title {
+	color: #FFF;
+	-webkit-text-stroke: 3px #000;
+	font-size:500%;
+}
+.logo {
+	display: block;
+	float:right;
+}
+.border {
+	border:2px solid #BBB;
+	border-radius: 3px;
+	border-color:#333333;
+}
+.content {
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px soid #FFF;
+	background-color: #FFF;
+	border-radius: 3px;
+}
+.list {
+	text-shadow:-1px 0 black, 0 1px black,  1px 0 black, 0 -1px black;
+}
+.heading {
+	margin-left:auto;
+	margin-right:auto;
+	color: #FFF;
+	text-shadow:-1px 0 black, 0 1px black,  1px 0 black, 0 -1px black;
+}
+a: link {
+	text-decoration:none;
+	color: #aaa;
+}
+a: active {
+	color: #000;
+}
+a: visited {
+	color: #aaa;
+}
+a: hover {
+	color: #000;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#contentArea {
+	margin-left:auto;
+	margin-right:auto;
+	width: 980px;
+}
+.ajaxTable {
+	width: 984px;
+}
+
+.cms {
+	list-style:none;
+}

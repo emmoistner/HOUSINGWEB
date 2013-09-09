@@ -1,0 +1,14 @@
+CREATE TABLE Employee (
+id INT NOT NULL AUTO_INCREMENT,
+Fname VARCHAR(50) NOT NULL,
+Minit CHAR(1),
+Lname VARCHAR(50) NOT NULL,
+PositionID INT,
+Birth_Date DATE,
+BSU_Email VARCHAR(254) NOT NULL,
+Password VARCHAR(128) NOT NULL,
+Class_Level INT,
+ClockedIn BIT,
+Sex ENUM('M', 'F'),
+PRIMARY KEY (id)
+);

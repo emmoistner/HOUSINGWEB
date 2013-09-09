@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+
+ol {
+	list-style: none;
+}
+#form-title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+fieldset {
+	border: none;
+	margin-bottom:5px;
+}
+/*Simple Form*/
+form li {
+	border-bottom: 1px dashed #333;
+	padding: .7em 0 1.5em 0;
+	position: relative;
+	height: 1%;
+	margin-right: 58px;
+}
+form li label {
+	font-weight: bold;
+	color: #000;
+	float: left;
+	width: 200px;
+}
+form li span.validation {
+	float: left;
+	clear: left;
+	display: block;
+	width: 200px;
+	font-size: 0.9em;
+	color: #666;
+}
+form li span.confirmation {
+	float: left;
+	clear:left;
+	display:block;
+	width: 200px;
+	font-weight: bold;
+	color: #000;
+	padding-top:10px;
+}
+form li input[id="pass_word2"] {
+	display:block;
+	margin-top:10px;
+}
+form li input[id="Minit"] {
+	width:25px;
+}
+form li.bottom {
+	border-bottom: none;
+}
+form li .reset_button {
+	background-color:rgb(51, 51, 51);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+form li .submit_button {
+	background-color:rgb(51, 51, 51);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+form li .submit_button_hover {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+}
+form input {
+	background-color: #FFF;
+	border: 1px inset;
+	border-color: #000;
+	border-radius: 3px;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+form textarea {
+	background-color: #FFF;
+	border: 1px inset;
+	border-color: #000;
+	border-radius: 3px;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+form input:focus {
+	box-shadow: 0 0 5px #03F;
+	border: 1px solid #000;
+}
+form textarea:focus {
+	box-shadow: 0 0 5px #03F;
+	border: 1px solid #000;
+}
+/*End Simple Form*/
+
+/*Supply Form*/
+form li input[id="check"] {
+	width:25px;
+	
+}
+form li span.firstSpan {
+	float: left;
+	clear:left;
+	display:block;
+	width: 200px;
+	font-weight: bold;
+	color: #000;
+	
+}
+form li span.secondSpan {
+	width: 200px;
+	font-weight: bold;
+	color: #000;
+}
+
+/*End Supply Form*/
+
+/*Shopping Cart Form*/
+form li input[id="quantity"] {
+	width:25px;
+	float:left;
+}
+
+form li input[id="delete"] {
+	float:left;
+	margin-left:15px;
+}
+
+#Shopping_Cart ol .reset_button {
+	background-color:rgb(51, 51, 51);
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#Shopping_Cart ol .submit_button {
+	background-color:rgb(51, 51, 51);
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#Shopping_Cart ol .submit_button_hover {
+	margin-bottom: 5px;
+}
+
+#Shopping_Cart li .submit_button {
+	background-color:rgb(51, 51, 51);
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#Shopping_Cart li .submit_button_hover {
+	margin-bottom: 5px;
+}
+
+
+/*End Shopping Cart Form*/
+
+
+/*MOTW Form*/
+#delete_message_form li #entry {
+	width:350px;
+}
+#delete_message_form li #motwtitle {
+	width:250px;
+}
+
+#delete_message_form li .gap {
+	margin-bottom: 40px;
+}
+/*End MOTW Form*/
+
+/*Registration Form*/
+#registration_form li {
+	border-bottom: 1px dashed #333;
+	padding: .7em 0 1.5em 0;
+	position: relative;
+	height: 1%;
+	margin-right: 58px;
+}
+#registration_form li label {
+	font-weight: bold;
+	color: #000;
+	float: left;
+	width: 200px;
+}
+#registration_form li span.validation {
+	float: left;
+	clear: left;
+	display: block;
+	width: 200px;
+	font-size: 0.9em;
+	color: #666;
+}
+#registration_form li span.confirmation {
+	float: left;
+	clear:left;
+	display:block;
+	width: 200px;
+	font-weight: bold;
+	color: #000;
+	padding-top:10px;
+}
+#registration_form li input[id="pass_word2"] {
+	display:block;
+	margin-top:10px;
+}
+#registration_form li input[id="Minit"] {
+	width:25px;
+}
+#registration_form li.bottom {
+	border-bottom: none;
+	
+}
+#registration_form li .reset_button {
+	background-color:rgb(51, 51, 51);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#registration_form li .submit_button {
+	background-color:rgb(51, 51, 51);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#registration_form li .submit_button_hover {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+}
+#registration_form input {
+	background-color: #FFF;
+	border: 1px inset;
+	border-color: #000;
+	border-radius: 3px;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+#registration_form textarea {
+	background-color: #FFF;
+	border: 1px inset;
+	border-color: #000;
+	border-radius: 3px;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+#registration_form input:focus {
+	box-shadow: 0 0 5px #03F;
+	border: 1px solid #000;
+}
+#registration_form textarea:focus {
+	box-shadow: 0 0 5px #03F;
+	border: 1px solid #000;
+}
+
+/*Login Form*/
+#login_form li {
+	position: relative;
+	display:block;
+	height: 1%;
+	margin-top:10px;
+	margin-right:0;
+	padding:inherit;
+}
+#login_form label {
+	font-weight: bold;
+	color: #000;
+	display:block-inline;
+}
+#login_form input[id="password"] {
+	margin-top:10px;
+}
+#login_form li.bottom {
+	border-bottom: none;
+}
+#login_form li .reset_button {
+	background-color:rgb(51, 51, 51);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#login_form li .submit_button {
+	background-color:rgb(51, 51, 51);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+#login_form li .submit_button_hover {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-bottom: 5px;
+}
+#login_form input {
+	background-color: #FFF;
+	border: 1px inset;
+	border-color: #000;
+	border-radius: 3px;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+#login_form textarea {
+	background-color: #FFF;
+	border: 1px inset;
+	border-color: #000;
+	border-radius: 3px;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+}
+#login_form input:focus {
+	box-shadow: 0 0 5px #03F;
+	border: 1px solid #000;
+}
+#login_form textarea:focus {
+	box-shadow: 0 0 5px #03F;
+	border: 1px solid #000;
+}
+/* Supplies Form */
+#supply_form input[id="quantity"] {
+	width: 25px;
+}
+
+#supply_form input[id="ItemID"] {
+	width: 25px;
+}
+
+#supply_form li input[id="lastUpdateID"] {
+	display:block;
+	margin-top:10px;
+}
+
+form li span.lastUpdateID {
+	float: left;
+	clear:left;
+	display:block;
+	width: 200px;
+	font-weight: bold;
+	color: #000;
+	padding-top:10px;
+}

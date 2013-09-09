@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/body.css" type="text/css" media="screen" />
+<title>Brief Overview</title>
+</head>
+
+<body>
+<div id=title-hold>
+<h1 id=title> Lab Utility </h1><br><br>
+</div>
+
+<div class="inner-border">
+    	<div class="border">
+        	<div class="heading">
+<h2> System Definition </h2>
+	<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;This is an all-in-one system for managing the labs on campus. The system will be able to track and schedule employees, request supplies and repairs, and monitor the labs. The system will work as a time clock for the employees and allow them to schedule their shifts and vacations. The employees will be able to directly make a request to the company head for supplies and repairs which will be carried out by computer service technicians. The system will also provide a way to keep head counts to coordinate with Ball State administration policy. The company head will have full access to all parts of the system while other users will have different privilege based on their job.
+    </p>
+<h2> User Requirements </h2>
+<ol class="list">
+	<li>Administrator</li>
+  <ul>
+  <li>Access Data Base</li>
+  <li> Everything the Company Head can do </li>
+  </ul>
+    <li> Company Head </li>
+    <ul>
+    	<li> Edit user information </li>
+        <li> Monitor over traded shifts </li>
+        <li> Approve vacation requests </li>
+        <li> Monitor over calendar </li>
+        <li> Approve Time Clock </li>
+        <li> Update Message of the Week </li>
+        <li> Monitor computer lab head count charts </li>
+        <li> Currently working alert </li>
+        <li> Assign Repairs to Technicians or Lab Manager </li>
+     </ul>
+        
+    <li> Lab Manager </li>
+    <ul>
+        <li> Monitor over traded shifts </li>
+        <li> Monitor over calendar </li>
+        <li> Update Message of the Week </li>
+        <li> Monitor computer lab head count charts </li>
+        <li> Currently working alert </li>
+        <li> Accept repair requests </li>
+        <li> Time Clock </li>
+        
+     </ul>
+    <li> Computer Lab Assistants </li>
+    <ul>
+        <li> Request </li>
+        	<ul>
+            	<li> Vacations </li>
+                <li> Shift trades </li>
+                <li> Extra hours </li>
+                <li> Lab repairs </li>
+                <li> Lab supplies </li>
+             </ul>
+        <li> Time Clock </li>
+        <li> Basic calendar viewing </li>
+        <li> Fill out head count charts </li>
+        <li> Currently working alert </li>
+        <li> View Shifts up for trade </li>
+        <li> Accept traded shifts </li>
+     </ul>	
+    <li> Computer Service Technician </li>
+    <ul>
+    	<li> Currently working alert </li>
+        <li> Accept repair requests </li>
+        <li> Basic calendar viewing </li>
+        <li> Monitor computer lab head count charts </li>
+        <li> Time Clock </li>
+        <li> Request </li>
+        	<ul>
+            	<li> Vacations </li>
+                <li> Extra Hours (Work as Lab Assistants) </li>
+                <li> View Shifts up for trade </li>
+                <li> Lab supplies </li>
+            </ul>
+        <li> Reporting </li>
+        	<ul>
+            	<li> Lab Printer Problems </li>
+                <li> Other problems </li>
+            </ul>
+     </ul>
+                
+                
+    </ul>
+</ol>
+<a href="../images/UseCase.jpg"><img src="../images/UseCase.jpg" width="300px" height="350px" class="UML" alt="Use Case Diagram: CLICK ME!" /></a>
+<h2> Functional Requirements </h2>
+	<ol>
+    <li> Different Login Privileges </li>
+    <li>Shopping Cart used for Computer Lab Supplies</li>
+    <li>Vacation Requests</li>
+    <li>Shift Trading</li>
+    <li>Calendar System</li>
+    <li>Time Clock</li>
+    <li> RSS Message of the Week </li>
+    </ol>
+<h2> Data Requirements</h2>
+<ol>
+<li>Different Login Data </li>   
+  <ul>
+      <li>Ball State Email</li>
+      <li>Password</li>
+  </ul>
+<li> Different Registration Data</li>
+	  <ul>
+    	<li>Ball State Email</li>
+        <li>Password</li>
+        <li>Name</li>
+        <li>Telephone Number</li>
+        <li>Registration Code (Access Level ex. Admin/Company Head etc.)</li>
+        </ul>
+<li> Shopping Cart (Computer Lab Supplies/Repairs Requests)</li>
+	<ul> 
+    <li> Add</li>
+    <li> View Cart </li>
+    <li> Finalize/send Request </li>
+    <li> Product: Current lab supplies available</li>
+    	<ul>
+        	<li> Name-->VARCHAR(50) </li>
+            <li> Quantity-->tinyint</li>
+            <li> SubmitterID-->int</li>
+            <li> Date-->Date</li>
+            
+    </ul>
+<li>Vacation Requests</li>
+	<ul>
+    <li> Calendar Integration </li>
+    </ul>
+<li> Shift Trading </li>
+	<ul>
+    <li> Calendar </li>
+    <li> Request Trade </li>
+    </ul>
+<li> Time Clock </li>
+	<ul>
+    <li> 24 Hour Clock </li>
+    <li> Save Time Stamps </li>
+    <li> Hours Worked </li>
+	</ul>
+</ol>
+<h2> Others, Highlights </h2>
+  <ol>
+  	<li>Different Login Privileges </li>
+    <li>Shopping Cart used for Computer Lab Supplies </li>
+    <li>Vacation Requests </li>
+    <li>Unique User Homepage (User clearance level) </li>
+    <li>Secure Ball State Login </li>
+    <li>Message of the Week </li>
+    <li>Lab Related Problem Submission </li>
+    <li>Lab Assistant Shift Trading </li>
+    <li>Calendar System </li>
+	<li>Work Time Clock (Similar to Kronos TimeKeeper)
+    </li>
+    </ol>
+   		</div>
+	</div>
+</div>  
+</body>
+</html>
